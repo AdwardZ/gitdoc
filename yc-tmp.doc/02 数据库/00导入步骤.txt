@@ -1,0 +1,36 @@
+-----------------------------------------------------------
+-- 按以下步骤先后顺序操作：
+-----------------------------------------------------------
+数据库版本： Mysql5.6
+
+步骤一、修改数据库配置
+打开 my.ini 给 [mysqld] 增加如下配置：
+sql_mode="ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+   【如果】遇到 ERROR 1709 (HY000): Index column size too large. The maximum column size is 767 bytes. 错误
+	a) 打开 my.ini 给 [mysqld] 增加如下配置：
+		innodb_large_prefix = ON
+		innodb_file_format = Barracuda
+		innodb_file_per_table = ON
+	b) 并修改报错的建表语句后面加上：ENGINE=InnoDB row_format=DYNAMIC;
+
+步骤二、新建数据库
+CREATE DATABASE yctpm DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+步骤三、新建用户
+CREATE USER 'tpmadmin'@'%' IDENTIFIED BY 'YcNokia#01';
+GRANT ALL PRIVILEGES ON yctpm.* TO 'tpmadmin'@'%' IDENTIFIED BY 'YcNokia#01';
+FLUSH PRIVILEGES;
+
+步骤四、依次按编号导入本目录下SQL文件
+注意：如果使用MysqlFront客户端工具导入SQL文件，导入时必须选择“UTF8”字符集！
+说明：0开头的是：表结构和固定的系统数据。
+      1开头的是：动态系统数据，在平台操作后会变化，尽量在平台上操作。
+      2开头的是：业务数据。
+
+
+
+
+
+
+
+

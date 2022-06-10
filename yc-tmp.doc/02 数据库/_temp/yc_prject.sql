@@ -1,0 +1,1 @@
+INSERT INTO `yc_prject` VALUES ('10000', 'PR-0000138', 'Philippines', 'Globe Telecom Mobile Networds Program', 'Greater China', 'Globe Telecom', '0', 'system', '2020-2-5 21:57:48', 'system', '2020-2-5 21:57:48', NULL);

@@ -1,0 +1,2 @@
+INSERT INTO `js_sys_job` VALUES ('MsgLocalMergePushTask', 'SYSTEM', '消息推送服务 (延迟推送)', 'msgLocalMergePushTask.execute()', '0 0/30 * * * ?', 2, '0', 'JeeSiteScheduler', '2', 'system', '2020-1-21 18:45:21', 'system', '2020-1-21 18:45:21', NULL);
+INSERT INTO `js_sys_job` VALUES ('MsgLocalPushTask', 'SYSTEM', '消息推送服务 (实时推送)', 'msgLocalPushTask.execute()', '0/3 * * * * ?', 2, '0', 'JeeSiteScheduler', '2', 'system', '2020-1-21 18:45:21', 'system', '2020-1-21 18:45:21', NULL);

@@ -1,0 +1,4 @@
+INSERT INTO `js_sys_module` VALUES ('bpm', '业务流程', '流程设计器、流程监管控制、流程办理、流程追踪', 'com.jeesite.modules.bpm.entity.BpmEntity', '4.1.x', NULL, '0', 'system', '2020-2-4 19:44:59', 'system', '2020-2-4 19:44:59', NULL);
+INSERT INTO `js_sys_module` VALUES ('cms', '内容管理', '网站、站点、栏目、文章、链接、评论、留言板', 'com.jeesite.modules.cms.web.CmsController', '4.0.0', NULL, '0', 'system', '2020-1-21 18:45:07', 'system', '2020-1-21 18:45:07', NULL);
+INSERT INTO `js_sys_module` VALUES ('core', '核心模块', '用户、角色、组织、模块、菜单、字典、参数', 'com.jeesite.modules.sys.web.LoginController', '4.1.8', 'upgrade 2020-02-04 19:44:59 (4.1.2 -> 4.1.8)', '0', 'system', '2020-1-21 18:45:07', 'system', '2020-2-4 19:45:00', NULL);
+INSERT INTO `js_sys_module` VALUES ('filemanager', '文件管理', '公共文件柜、个人文件柜、文件分享', 'com.jeesite.modules.filemanager.web.FilemanagerController', '4.1.6', 'upgrade 2020-02-04 19:45:01 (4.1.4 -> 4.1.6)', '0', 'system', '2020-2-4 19:44:56', 'system', '2020-2-4 19:45:01', NULL);

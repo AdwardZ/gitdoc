@@ -1,0 +1,6 @@
+INSERT INTO `js_sys_file_upload` VALUES ('1225068469421010945', '1225068469421010946', '0100-项目选择.jpg', 'image', 10, '1225068787265368064', 'testData_image', '0', 'system', '2020-2-5 22:47:39', 'system', '2020-2-5 22:48:54', NULL);
+INSERT INTO `js_sys_file_upload` VALUES ('1225286180080939008', '1225068469421010946', '0100-项目选择.jpg', 'image', 10, 'PH1600302', 'ycSite_image', '0', 'system', '2020-2-6 13:12:45', 'system', '2020-2-6 13:12:50', NULL);
+INSERT INTO `js_sys_file_upload` VALUES ('1225425328794435584', '1225068469421010946', '0100-项目选择.jpg', 'image', 10, '10000', 'ycMilestone_image', '0', 'system', '2020-2-6 22:25:40', 'system', '2020-2-6 22:25:44', NULL);
+INSERT INTO `js_sys_file_upload` VALUES ('1225661748494393344', '1225068469421010946', '0100-项目选择.jpg', 'image', NULL, NULL, NULL, '0', 'system', '2020-2-7 14:05:07', 'system', '2020-2-7 14:05:07', NULL);
+INSERT INTO `js_sys_file_upload` VALUES ('1225665337832955904', '1225068469421010946', '0100-项目选择.jpg', 'image', NULL, NULL, NULL, '0', 'system', '2020-2-7 14:19:23', 'system', '2020-2-7 14:19:23', NULL);
+INSERT INTO `js_sys_file_upload` VALUES ('1226346534477942784', '1225068469421010946', '0100-项目选择.jpg', 'image', NULL, NULL, NULL, '0', 'system', '2020-2-9 11:26:13', 'system', '2020-2-9 11:26:13', NULL);

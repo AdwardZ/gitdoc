@@ -1,0 +1,11 @@
+insert into yc_acp_model values(1001,  10, 'Template a', 'a', null, null, null, 1, 'system', now(), 'system', now(), null);
+insert into yc_acp_model values(1002,  20, 'Template b', 'b', null, null, null, 1, 'system', now(), 'system', now(), null);
+insert into yc_acp_model values(1003,  30, 'Template c', 'c', null, null, null, 1, 'system', now(), 'system', now(), null);
+insert into yc_acp_model values(1004,  40, 'Template d', 'd', null, null, null, 1, 'system', now(), 'system', now(), null);
+insert into yc_acp_model values(1005,  50, 'Template e', 'e', null, null, null, 1, 'system', now(), 'system', now(), null);
+insert into yc_acp_model values(1006,  60, 'Template f', 'f', null, null, null, 1, 'system', now(), 'system', now(), null);
+insert into yc_acp_model values(1007,  70, 'Template g', 'g', null, null, null, 1, 'system', now(), 'system', now(), null);
+insert into yc_acp_model values(1008,  80, 'Template h', 'h', null, null, null, 1, 'system', now(), 'system', now(), null);
+insert into yc_acp_model values(1009,  90, 'Template i', 'i', null, null, null, 1, 'system', now(), 'system', now(), null);
+insert into yc_acp_model values(1010, 100, 'Template j', 'j', null, null, null, 1, 'system', now(), 'system', now(), null);
+insert into yc_acp_model values(1011, 110, 'Template k', 'k', null, null, null, 1, 'system', now(), 'system', now(), null);

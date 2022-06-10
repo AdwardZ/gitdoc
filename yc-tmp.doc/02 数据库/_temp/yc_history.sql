@@ -1,0 +1,5 @@
+INSERT INTO `yc_history` VALUES ('10000', 10, 'Upload File《材料清单.doc》<br> [SARF Issued]', 'Reynold Cabigon<br>Nokia/ROM', '2020-2-7 14:32:18', 'system', '2020-2-7 14:32:18', 'system', '2020-2-9 11:26:32', '文件格式有点乱');
+INSERT INTO `yc_history` VALUES ('20000', 20, 'Down File《材料清单.doc》<br> [SARF Issued]', 'Rodel Trangla <br>Nokia/PLN', '2020-2-7 14:32:18', 'system', '2020-2-7 14:32:18', 'system', '2020-2-7 11:32:18', '下载查看文件');
+INSERT INTO `yc_history` VALUES ('30000', 30, 'Confirmed<br> [SARF Issued]', 'Reynold Cabigon <br>Nokia/RO', '2020-2-7 14:32:19', 'system', '2020-2-7 14:32:19', 'system', '2020-2-7 12:32:19', '审核通过');
+INSERT INTO `yc_history` VALUES ('40000', 40, 'Plan Survey date<br> [Survey Done_Plan]', 'Rodel Trangla <br>Nokia/PLN', '2020-2-7 14:32:19', 'system', '2020-2-7 14:32:19', 'system', '2020-2-7 09:32:19', '指定计划完成日期');
+INSERT INTO `yc_history` VALUES ('50000', 50, 'Confirmed Done Actual <br>[Survery Done_Actual]', 'Rodel Trangla <br>Nokia/PLN', '2020-2-7 14:32:19', 'system', '2020-2-7 14:32:19', 'system', '2020-2-7 14:32:19', '确认任务已完成');

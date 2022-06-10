@@ -1,0 +1,47 @@
+select * from yc_site_column_0606 where column_name in ('buildingheight','propertydocssubmitted','rfpremarks','towerheight','lpremarks','concreteplan','securitydepositamo','mayorspermitsecured','onairedplan','onaired','meterserialnumber');
+select * from yc_site_column where id in ('102010','105670','104710','104050','107110','106660','106630','103275','103690','102280','105340');
+---
+select * from yc_site_rowf_column where column_id in ('102010','105670','104710','104050','107110','106660','106630','103275','103690','102280','105340');
+select * from yc_site_colf_column where column_id in ('102010','105670','104710','104050','107110','106660','106630','103275','103690','102280','105340');
+select * from yc_role_field where column_id in ('102010','105670','104710','104050','107110','106660','106630','103275','103690','102280','105340');
+select * from yc_rpt_design_colunm where column_id in ('102010','105670','104710','104050','107110','106660','106630','103275','103690','102280','105340');
+select * from yc_miles_opera where column_id in ('102010','105670','104710','104050','107110','106660','106630','103275','103690','102280','105340');
+select * from yc_notify where column_id in ('102010','105670','104710','104050','107110','106660','106630','103275','103690','102280','105340');
+--
+delete from yc_site_rowf_column where column_id in ('102010','105670','104710','104050','107110','106660','106630','103275','103690','102280','105340');
+delete from yc_site_colf_column where column_id in ('102010','105670','104710','104050','107110','106660','106630','103275','103690','102280','105340');
+delete from yc_role_field where column_id in ('102010','105670','104710','104050','107110','106660','106630','103275','103690','102280','105340');
+delete from yc_rpt_design_colunm where column_id in ('102010','105670','104710','104050','107110','106660','106630','103275','103690','102280','105340');
+delete from yc_miles_opera where column_id in ('102010','105670','104710','104050','107110','106660','106630','103275','103690','102280','105340');
+delete from yc_notify where column_id in ('102010','105670','104710','104050','107110','106660','106630','103275','103690','102280','105340');
+
+
+
+--
+select * from js_sys_file_upload where milestone_id in ('buildingheight','propertydocssubmitted','rfpremarks','towerheight','lpremarks','concreteplan','securitydepositamo','mayorspermitsecured','onairedplan','onaired','meterserialnumber');
+select milestone_id from js_sys_file_upload where milestone_type='1' and milestone_id not in (select column_name from yc_site_column);
+
+
+
+milestoneId=rfpsubmitted
+milestoneId=rfpsubmitted
+milestoneId=mocsubmitted
+milestoneId=colapprovedbylegal
+
+
+select * from js_sys_file_upload where milestone_id in ('colapprovedbylegal');
+
+select * from yc_site_column where column_name in ('colapprovedbylegal');
+colapprovedbyLegal
+
+
+
+
+
+
+
+
+
+
+
+

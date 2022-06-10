@@ -1,0 +1,35 @@
+<030-sys_change.sql>
+TRIGGER t_js_sys_file_upload BEFORE UPDATE
+<>
+TRIGGER t_yc_site BEFORE UPDATE
+
+
+手工计算：
+
+select * from js_sys_file_upload where create_date>='2020-08-29' order by create_date;
+select distinct biz_type from js_sys_file_upload where create_date>='2020-08-29' order by create_date;
+site_file
+site_image
+siteDir_file
+siteDir_image
+
+
+select biz_key, SUBSTR(biz_key,1,9),SUBSTR(biz_key,11) from js_sys_file_upload where create_date>='2020-08-31' and biz_key is not null and biz_type='site_file';
+
+select * from js_sys_file_upload where create_date>='2020-08-31' and biz_key is not null and biz_type='site_file' order by create_date;
+select * from js_sys_file_upload where create_date>='2020-08-31' and biz_key is not null and biz_type='site_image' order by create_date;
+select * from js_sys_file_upload where create_date>='2020-08-31' and biz_key is not null and biz_type='siteDir_file' order by create_date;
+select * from js_sys_file_upload where create_date>='2020-08-31' and biz_key is not null and biz_type='siteDir_image' order by create_date;
+
+
+-- 83条记录
+update js_sys_file_upload set site_id=SUBSTR(biz_key,1,9), milestone_id=SUBSTR(biz_key,11), milestone_type='1' where create_date>='2020-08-31' and biz_key is not null and biz_type='site_file';
+-- 136条记录
+update js_sys_file_upload set site_id=SUBSTR(biz_key,1,9), milestone_id=SUBSTR(biz_key,11), milestone_type='1' where create_date>='2020-08-31' and biz_key is not null and biz_type='site_image';
+-- 36条记录
+update js_sys_file_upload set site_id=SUBSTR(biz_key,1,9), milestone_id=SUBSTR(biz_key,11), milestone_type='4' where create_date>='2020-08-31' and biz_key is not null and biz_type='siteDir_file';
+-- 163条记录
+update js_sys_file_upload set site_id=SUBSTR(biz_key,1,9), milestone_id=SUBSTR(biz_key,11), milestone_type='4' where create_date>='2020-08-31' and biz_key is not null and biz_type='siteDir_image';
+
+
+
